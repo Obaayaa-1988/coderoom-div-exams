@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: Arial Helvetica sans-serif;
+	background-color: rgb(39, 39, 39);
+	color: white;
+}
+
+header{
+	min-height: 4rem;
+	background-color: white;
+	
+}
+
+header a{
+	text-decoration: none;
+	font-size: 1rem;
+	color: rgb(155, 155, 155);
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 30px 0 20px;
+	margin-top: 20px;
+}
+
+header nav{
+	float: right;
+}
+
+.mylogo{
+	float: left;
+	color: rgb(155, 155, 155);
+	margin-top: 20px;
+};
+
+article{
+	position: relative;
+}
+
+h3{
+	position: absolute;
+	left: 500px;
+	top: 250px;
+	font-size: 3rem;
+	width: 350px;
+}
+
+span{
+	color: rgb(0, 128, 225);
+}
+
+p{
+	position: absolute;
+	left: 500px;
+	top: 400px;
+}
+
+button{
+	position: absolute;
+	left: 550px;
+	top: 450px;
+	padding: 1rem;
+	display: inline-block;
+	border-style: 1px solid white;
+	background-color: transparent;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button:hover{
+	color: white;
+	background-color: grey;
+}
+
